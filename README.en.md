@@ -1,3 +1,5 @@
+> 📄 Este conteúdo está em inglês. Para a versão em português, [clique aqui](./README.md).
+
 # Bilden Popup
 
 Extension for Qlik Sense that enables the display of modal windows (pop-ups) over the dashboard, supporting both static HTML content and the display of a specific sheet from the application.
@@ -92,3 +94,18 @@ Sheet content (a sheet with app filters loaded inside the popup):
 This extension was developed using the [qExt](https://github.com/axisgroup/qExt) package, which streamlines the creation, packaging, and deployment of Qlik Sense extensions.  
 The folder structure and scripts are based on the official `qExt` template and can be customized as needed.  
 More information: https://github.com/axisgroup/qExt
+
+---
+
+## 📎 License
+MIT License © Rodrigo Martins / Bilden  
+Feel free to adapt, improve, and contribute.
+
+---
+
+## 🙋‍♂️ Support & Contact
+Have questions or suggestions?  
+Open an [issue here on GitHub](https://github.com/drigomed/bilden-popup/issues) or get in touch:
+
+- [LinkedIn - Rodrigo Martins](https://www.linkedin.com/in/drigomed)
+- [https://bildennegocios.com/](https://bildennegocios.com/)
