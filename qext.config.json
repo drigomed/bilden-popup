@@ -1,0 +1,15 @@
+{
+  "extension": "bilden-popup",
+  "name": "Bilden Pop-Up",
+  "mode": "compile",
+  "deploy": "desktop",
+	"desktopConfig": {
+		"destination": "C:\\Users\\rmart\\Documents\\Qlik\\Sense\\Extensions\\Bilden-bundle"
+	},
+  "output": "./dist",
+  "compile": {
+    "entry": "./src/index.js",
+    "qext": "./src/index.qext",
+    "static": "./static"
+  }
+}

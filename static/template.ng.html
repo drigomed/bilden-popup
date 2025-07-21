@@ -1,0 +1,11 @@
+<span id='btnPop{{layout.popId}}' class='lui lui-button btnFiltroFixo' style='top:{{layout.btnTop}}px; right:{{layout.btnRight}}px'
+ng-click="ExibirPopUp(layout);" ng-if="layout.posicionarFixo">
+    <span class ="lui-icon lui-icon--small lui-icon--{{layout.buttonIconsLui}}"></span>
+    {{layout.tituloBotao}}
+</span>
+
+<span id='btnPop{{layout.popId}}' class='lui lui-button btnFiltroRelativo' 
+ng-click="ExibirPopUp(layout);" ng-if="!layout.posicionarFixo">
+    <span class ="lui-icon lui-icon--small lui-icon--{{layout.buttonIconsLui}}"></span>
+    {{layout.tituloBotao}}
+</span>

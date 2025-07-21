@@ -1,0 +1,93 @@
+.popBody { 
+    
+}
+
+.popBodyFrame { 
+    width: 100%;    
+    margin-top: 20px;
+    height: calc(100% - 44px);
+}
+
+.popBodyHTML {
+    width: calc(100% - 40px);
+    height: calc(100% - 84px);
+    margin-top: 39px;
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+
+.divFramePopUp { 
+    left: 0;
+    top: 0;
+    width: 92vw; 
+    height: 92vh; 
+    margin-left: 4vw; 
+    margin-top: 4vh; 
+    max-height: 92vh;
+    position: fixed; 
+    background-color: #fff;     
+    border: 2px solid #CCC; 
+    z-index: 1002;
+    overflow: auto;
+}
+
+.divFramePopUpDark {
+    left: 0;
+    top: 0;
+    width: 92vw;
+    height: 92vh;
+    margin-left: 4vw;
+    margin-top: 4vh;
+    max-height: 92vh;
+    position: fixed;
+    background-color: #222;
+    border: 2px solid #777;
+    z-index: 1002;
+    overflow: auto;
+    color: #ddd;
+}
+
+.closeButton {
+    float: right;
+    margin: -13px 4px -30px 0px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.backdrop { 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0px; 
+    left: 0px; 
+    background-color: #777; 
+    opacity: 0.3; 
+    z-index: 999;
+}
+
+.tituloFrame { 
+    float: left; 
+    font-size: 22px; 
+    font-weight: bold; 
+    margin: 10px 0px 0px 10px; 
+}
+
+.btnFiltroFixo { 
+    position: fixed; 
+    background-color: white; 
+}
+
+.btnFiltroRelativo { 
+    position: fixed; 
+    background-color: white; 
+}
+
+div[tid=about] div[tid=aboutlogo] {
+    background: url(http://central.bildennegocios.com.br/static/img/logonome.PNG);
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

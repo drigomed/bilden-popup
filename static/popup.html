@@ -1,0 +1,10 @@
+`<div class="modal_popup" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0">
+    <div class="backdrop" ng-click="FecharPop(layout.props)" style="display: block!important;"></div>
+    <div class='divFramePopUp' id=${layout.props.details_popup_id} style="display: block!important;">
+        <span class='tituloFrame'>
+            ${layout.props.details_popup_title}
+        </span>
+        <span class='closeButton' ng-click="FecharPop(layout.props)">&times;</span>
+        <div class='popBody'></div>
+    </div>
+</div>`

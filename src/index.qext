@@ -1,0 +1,8 @@
+{
+	"name" : "Bilden PopUp",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "popup.png",
+	"author": "Bilden"
+}
