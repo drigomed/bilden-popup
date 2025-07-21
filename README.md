@@ -1,3 +1,5 @@
+> 📄 This content is in Portuguese. For the English version, [click here](./README.en.md).
+
 # Bilden Popup
 
 Extensão para Qlik Sense que permite exibir janelas modais (pop-ups) sobre o dashboard, com suporte a conteúdo HTML estático ou exibição de uma aba (sheet) do próprio aplicativo.
