@@ -89,12 +89,11 @@ Conteúdo onde uma aba do aplicativo é carregada (uma aba apenas com filtros do
 
 ---
 
-
-
 ## 🛠 Desenvolvimento
 Esta extensão foi desenvolvida utilizando o pacote [qExt](https://github.com/axisgroup/qExt), que facilita a criação, empacotamento e deploy de extensões para o Qlik Sense. A estrutura de pastas e scripts foi baseada no template oficial do qExt, e pode ser customizada conforme a necessidade.  
 Mais informações: https://github.com/axisgroup/qExt
 
+---
 
 ## 📎 Licença
 
