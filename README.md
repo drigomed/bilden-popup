@@ -15,8 +15,6 @@ O **Bilden Popup** é uma extensão visual pensada para enriquecer a experiênci
 - Embutir um **HTML personalizado** (com imagem, texto, PDF, iframe, etc.) ou carregar diretamente uma **sheet do Qlik**.
 - Customizar posição, ícone, título, e comportamento do botão de chamada do popup.
 
-![Exemplo HTML de ajuda](img/demoHTML.png)
-
 ---
 
 ## 🚀 Funcionalidades
@@ -28,8 +26,25 @@ O **Bilden Popup** é uma extensão visual pensada para enriquecer a experiênci
 - ✅ Suporte a ícones de botão customizados.
 - ✅ Compatível com **Qlik Cloud** e **Qlik Sense Client-Managed**.
 
+---
+
+## 🔎 Exemplos
+
+Posição fixa - o botão é exibido de acordo com a configuração (topo/direita):
+
 ![Exemplo com posição fixa](img/demoPosicaoFixa.png)
+
+Sem posição fixa (o botão é exibido dentro do componente):
+
 ![Exemplo com posição relativa](img/demoPosicaoVariavel.png)
+
+Conteúdo HTML (nesse caso uma imagem):
+
+![Exemplo HTML de ajuda](img/demoHTML.png)
+
+Conteúdo onde uma aba do aplicativo é carregada (uma aba apenas com filtros do app):
+
+![Exemplo Sheet carregada](img/demoSheet.png)
 
 ---
 
@@ -54,28 +69,6 @@ O **Bilden Popup** é uma extensão visual pensada para enriquecer a experiênci
 
 ---
 
-## 🖼 Exemplos de Uso
-
-### 1. HTML Estático com Imagem
-
-```qlik
-='<img src="https://meusite.com/imagens/tutorial1.png" style="max-width:100%"/>'
-```
-
-### 2. Embed de PDF
-
-```qlik
-='<iframe src="https://meusite.com/manual.pdf" width="100%" height="500px"></iframe>'
-```
-
-### 3. Texto formatado
-
-```qlik
-='<div><h3>Bem-vindo ao painel</h3><p>Use os filtros à esquerda para explorar os dados.</p></div>'
-```
-
----
-
 ## 📂 Instalação
 
 ### Para Qlik Cloud:
@@ -91,8 +84,6 @@ O **Bilden Popup** é uma extensão visual pensada para enriquecer a experiênci
 3. Selecione o `.zip` da extensão e clique em **Importar**.
 
 👉 Veja a [documentação oficial](https://help.qlik.com/en-US/sense-admin/May2025/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/import-extensions.htm)
-
-![Exemplo Sheet carregada](img/demoSheet.png)
 
 ---
 
